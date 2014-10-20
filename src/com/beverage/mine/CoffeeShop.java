@@ -7,7 +7,8 @@ public class CoffeeShop{
 		Beverage beverage = new Espresso();
 		System.out.println(beverage.getDescription() + " " + beverage.cost());
 		
-		Beverage beverage2 = new HouseBlend();
+		Beverage beverage2 = new Espresso();
+		beverage2.setSize("medium");
 		beverage2 = new Mocha(beverage2);
 		beverage2 = new Mocha(beverage2);
 		//beverage2 = new 
